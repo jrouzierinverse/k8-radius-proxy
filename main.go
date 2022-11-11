@@ -1,6 +1,16 @@
 package main
 
-import "time"
+import (
+	"time"
+
+	"github.com/inverse-inc/go-radius"
+)
+
+type RadiusProxy struct {
+}
+
+func (rp *RadiusProxy) ServerRADIUS(w radius.ResponseWriter, r *radius.Request) {
+}
 
 func main() {
 	for {

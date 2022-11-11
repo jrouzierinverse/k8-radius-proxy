@@ -1,0 +1,3 @@
+github.com/go-test/deep v1.0.5/go.mod h1:QV8Hv/iy04NyLBxAdO9njL0iVPN1S4d/A3NVv1V36o8=
+github.com/inverse-inc/go-radius v0.0.0-20220811032638-9fee2fa31606 h1:kb0JRRJD0SWHIq+/x211IfwSyfB8hDp2tLKTYbNLvkA=
+github.com/inverse-inc/go-radius v0.0.0-20220811032638-9fee2fa31606/go.mod h1:IQmy9DslBZ9lU4/y/MphJ9oY//4r9A9wQwqOjjLmBso=
