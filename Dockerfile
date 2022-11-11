@@ -55,7 +55,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y /tmp/freeradius-common* \
     && apt-get clean \
-    && rm -r /var/lib/apt/lists/* /tmp/*.deb\
+    && rm -r /var/lib/apt/lists/* /tmp/*.deb
 
 EXPOSE 1812/udp 1813/udp
 CMD ["/usr/local/bin/k8-radius-proxy"]
